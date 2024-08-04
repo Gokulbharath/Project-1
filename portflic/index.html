@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            padding: 5px 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar .profile-icon {
+            max-width: 30px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+	.navbar p{
+	float: right;
+	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 20px;
+  	text-decoration: none;
+	}
+        .header-content {
+            text-align: center;
+            padding: 100px 20px 40px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+        }
+        .header-content p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        .header-content img {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color:#4CAF50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h1, section h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        section p, section ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section ul li {
+            margin-bottom: 10px;
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        table th, table td {
+            border: none;
+            padding: 10px;
+            text-align: center;
+        }
+        table th {
+            background-color: white;
+            color: black ;
+        }
+        hr {
+            border: 1px solid #444;
+            margin: 20px 0;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            font-size: 1.2rem;
+        }
+        .skills-bar {
+            margin: 20px 0;
+        }
+        .skills-bar div {
+            background-color: #fff;
+            color: black;
+            text-align: right;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+	.section-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-heading {
+    margin-bottom: 20px;
+}
+
+.side-heading h2 {
+    color: #333; /* Adjust the color as needed */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.project-section {
+    margin-bottom: 20px;
+}
+
+.project-section h2 {
+    color: #333; /* Adjust the color as needed */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.resume-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div>
+    <img src="myself.jpg" alt="Profile" class="profile-icon">
+   </div>
+</div>
+
+<main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="home">
+<br>
+        <div class="header-content">
+            <h1>Hi! I am Gokul Bharath V</h1>
+            <p>I am a Student at KIT-Kalaignar Karunanidhi Institute of Technology-Coimbatore</p>
+            <p>Currently pursuing my B-Tech Degree in Computer Science and Business Systems</p>
+            <img src="pro photo.jpg" alt="Profile Photo">
+        </div>
+    </section>
+<br>
+<br>
+<br>
+    <section id="about">
+    <h1>About Me</h1>
+    <div class="section-content">
+        <div class="side-heading">
+            <h2>Objective:</h2>
+            <p>As a student pursuing a B-Tech Degree in Computer Science and Business Systems at Kalaignar Karunanidhi Institute of Technology, I am passionate about leveraging my programming skills and business acumen to tackle real-world challenges.</p>
+        </div>
+        
+        <div class="side-heading">
+            <h2>Education:</h2>
+            <p>I am currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Business Systems at Kalaignar Karunanidhi Institute of Technology, with an expected graduation in 2026.</p>
+        </div>
+        
+        <div class="side-heading">
+    <h2>Experience:</h2>
+    <p>Throughout my academic journey, I have completed multiple projects that demonstrate my technical and problem-solving skills. Some notable projects include:</p>
+    <ul>
+        <li>
+            <strong>Project 1: E-commerce Website Development</strong>
+            <p>Developed a full-stack e-commerce website using HTML, CSS, JavaScript, and a backend in Python with Flask. Implemented user authentication, product listings, and a shopping cart feature. The project enhanced my skills in web development and backend integration.</p>
+        </li>
+        <li>
+            <strong>Project 2: Hotel Management System</strong>
+            <p>Created a web application to manage hotel bookings, including room scheduling, customer management, and billing. Utilized technologies such as HTML, CSS, JavaScript, and Firebase for the backend. This project improved my ability to design and develop scalable web applications.</p>
+        </li>
+        <li>
+            <strong>Project 3: Billing System</strong>
+            <p>Designed a billing system to automate the billing process for small businesses. Employed HTML, CSS, JavaScript, and Firebase for real-time data management. This project helped me gain practical experience in developing business solutions.</p>
+        </li>
+        <li>
+            <strong>Project 4: Online Voting System</strong>
+            <p>Developed an online voting system to facilitate secure and efficient voting processes. Used HTML, CSS, JavaScript, and Firebase to implement features such as user authentication, real-time voting, and result updates. This project strengthened my skills in secure web application development.</p>
+        </li>
+    </ul>
+</div>
+
+        
+        <div class="side-heading">
+            <h2>Activities and Interests:</h2>
+            <ul>
+                <li><strong>Hobbies:</strong> Playing cricket, solving problems on various coding platforms</li>
+                <li><strong>Extracurricular Activities:</strong> Engaged in organizing technical events and workshops</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<section id="skills">
+    <h1>Skills and Development</h1>
+
+    <div class="side-heading">
+        <h2>Problem-solving Skills:</h2>
+        <p>With over 600 problems solved across various competitive programming platforms, I have honed a robust foundation in problem-solving. This achievement not only highlights my perseverance and dedication but also reflects a deep understanding of core programming concepts and algorithms. These skills are essential for tackling complex challenges and developing efficient solutions in real-world scenarios.</p>
+    </div>
+    
+    <div class="side-heading">
+        <h2>Programming Proficiency:</h2>
+        <p>My experience in solving problems using Python, C, and C++ on platforms like CodeChef underscores my versatility in different programming languages. This proficiency enables me to adapt to diverse project requirements and industry standards. Mastering multiple languages is particularly valuable in today's tech landscape, where projects often demand a multifaceted approach to software development.</p>
+    </div>
+    
+    <div class="side-heading">
+        <h2>Leadership:</h2>
+        <p>Serving as a team leader in various academic and extracurricular projects has equipped me with strong leadership skills. I have successfully coordinated team efforts, delegated tasks, and ensured the timely completion of projects. My leadership experiences include:</p>
+        <ul>
+            <li>Leading a team of developers in creating a web application for college event management, which enhanced my ability to manage project timelines and foster collaboration.</li>
+            <li>Organizing and overseeing technical workshops and coding competitions, which improved my communication and organizational skills.</li>
+        </ul>
+    </div>
+    
+    <div class="side-heading">
+        <h2>Additional Skills:</h2>
+        <p>Beyond programming and leadership, I have developed expertise in various other areas that complement my technical skillset:</p>
+        <ul>
+            <li><strong>Database Management:</strong> Experience with SQL and NoSQL databases, including MySQL and MongoDB, allows me to efficiently design, implement, and manage databases for diverse applications.</li>
+            <li><strong>Version Control:</strong> Proficiency in Git and GitHub for version control, facilitating collaborative development and code management.</li>
+        </ul>
+    </div>
+    
+    <div class="skills-bar">
+	<h1>Language Know</h1>
+        <div style="width: 95%;">Python - 95%</div>
+        <div style="width: 90%;">C - 90%</div>
+        <div style="width: 95%;">C++ - 95%</div>
+        <div style="width: 85%;">Java - 85%</div>
+        <div style="width: 90%;">HTML & CSS - 90%</div>
+        <div style="width: 90%;">JS - 90%</div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+
+    <section id="achievements">
+        <h1>Achievements</h1>
+        <ul>
+            <li>Won seventh place in the college coding competition.</li>
+            <li>Completed a networking certification with high distinction.</li>
+            <li>NPTEL certification on Introduction To C Programming</li>
+            <li>ALTAIR Product Certification on knowledge studio basic certification</li>
+            <li>ALTAIR Application & Use Cases Master Certification</li>
+            <li>INFOSYS Springboard Certification on Project Management</li>
+            <li>INFOSYS Springboard Certification on Programming in C</li>
+            <li>INFOSYS Springboard Certification on TechA Salesforce Certification</li>
+            <li>INFOSYS Springboard Certification on Managerial Leadership Training</li>
+            <li>TCS Certificate Of Achievement for Communication Skills</li>
+        </ul>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   <section id="projects">
+    <h1>Projects</h1>
+
+    <div class="project-section">
+        <h2>E-commerce Website Development:</h2>
+        <p>Developed a fully functional e-commerce website using HTML, CSS, and JavaScript. This project involved:</p>
+        <ul>
+            <li><strong>UI/UX Design:</strong> Created an intuitive and visually appealing user interface to enhance user experience.</li>
+            <li><strong>Client-side Functionality:</strong> Implemented features like product search, filtering, and sorting, as well as a dynamic shopping cart.</li>
+            <li><strong>Responsive Design:</strong> Ensured the website was fully responsive and compatible with various devices and browsers.</li>
+            <li><strong>Validation:</strong> Implemented client-side validation for forms to improve data integrity and user feedback.</li>
+        </ul>
+    </div>
+
+    <div class="project-section">
+        <h2>Hotel Management System:</h2>
+        <p>Created a hotel management system using HTML, CSS, and JavaScript to streamline the booking process. Key features include:</p>
+        <ul>
+            <li><strong>Room Booking:</strong> Developed a module for booking rooms with real-time availability checking.</li>
+            <li><strong>Customer Management:</strong> Implemented a customer management system to store and manage guest information.</li>
+            <li><strong>Billing and Invoicing:</strong> Automated the billing process, generating invoices and handling payments.</li>
+            <li><strong>Responsive Design:</strong> Ensured the application was mobile-friendly and accessible on various devices.</li>
+        </ul>
+    </div>
+
+    <div class="project-section">
+        <h2>Billing System:</h2>
+        <p>Designed a billing system using HTML, CSS, and JavaScript to automate the billing process for small businesses. This project included:</p>
+        <ul>
+            <li><strong>Invoice Generation:</strong> Created a system for generating detailed invoices based on user inputs.</li>
+            <li><strong>Product Management:</strong> Developed a module to manage products, including adding, updating, and deleting product information.</li>
+            <li><strong>Tax Calculation:</strong> Implemented automatic tax calculations to ensure accurate billing.</li>
+            <li><strong>Responsive Design:</strong> Ensured the application was accessible and functional across different devices and screen sizes.</li>
+        </ul>
+    </div>
+
+    <div class="project-section">
+        <h2>Online Voting System:</h2>
+        <p>Developed an online voting system using HTML, CSS, and JavaScript to facilitate secure and efficient voting processes. Key features include:</p>
+        <ul>
+            <li><strong>User Authentication:</strong> Implemented a secure login system to verify voter identities.</li>
+            <li><strong>Voting Interface:</strong> Created a user-friendly interface for casting votes and viewing results.</li>
+            <li><strong>Real-time Updates:</strong> Ensured real-time updates of voting results as votes are cast.</li>
+            <li><strong>Data Security:</strong> Implemented measures to ensure the integrity and confidentiality of voting data.</li>
+        </ul>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><section id="resume">
+    <h1>Resume</h1>
+    <div class="resume-container">
+        <iframe src="resumedoc.pdf" width="100%" height="600px">
+            Your browser does not support iframes.
+        </iframe>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact">
+            <p>Email: gokulbharath1221@gmail.com ✉️</p>
+            <p>Phone: 9944699989 ☎️</p>
+            <p>Instagram: mersal_arasan_02 📷</p>
+            <p>Stopstalk: Gokulbharath 🎯</p>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
